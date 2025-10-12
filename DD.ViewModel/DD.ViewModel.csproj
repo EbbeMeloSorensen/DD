@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Craft.Logging" Version="1.0.2" />
+    <PackageReference Include="Craft.ViewModel.Utils" Version="1.0.2" />
+    <PackageReference Include="Craft.ViewModels" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DD.Application\DD.Application.csproj" />
+    <ProjectReference Include="..\DD.Engine.Complex\DD.Engine.Complex.csproj" />
+  </ItemGroup>
+
+</Project>
