@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Craft.Algorithms" Version="1.0.2" />
+    <PackageReference Include="Craft.Logging" Version="1.0.2" />
+    <PackageReference Include="Craft.Utils" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DD.Domain\DD.Domain.csproj" />
+    <ProjectReference Include="..\DD.IO\DD.IO.csproj" />
+  </ItemGroup>
+
+</Project>
