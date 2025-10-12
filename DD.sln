@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD.ViewModel", "DD.ViewMode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD.UI.Console", "DD.UI.Console\DD.UI.Console.csproj", "{0ECE6F63-0E9F-BCB9-0B99-864E31B805CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD.Application.UnitTest", "DD.Application.UnitTest\DD.Application.UnitTest.csproj", "{DC6EBBA5-B266-B537-5CF9-FCDA51D35AD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0ECE6F63-0E9F-BCB9-0B99-864E31B805CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECE6F63-0E9F-BCB9-0B99-864E31B805CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECE6F63-0E9F-BCB9-0B99-864E31B805CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6EBBA5-B266-B537-5CF9-FCDA51D35AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6EBBA5-B266-B537-5CF9-FCDA51D35AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6EBBA5-B266-B537-5CF9-FCDA51D35AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6EBBA5-B266-B537-5CF9-FCDA51D35AD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
