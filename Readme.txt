@@ -1,8 +1,19 @@
-Todo:
-* Lav en simpel web app, hvor man kan køre crud på creature types, hvor klienten mocker i stedet for at gøre brug af en
-  bagvedliggende web api. Prøv at publicere den lokalt samt på Azure (Lige som Music-appen).
-* Lav en simpel web app, hvor man kan køre crud på creature types, hvor applikationen omfatter en web api klienten som imidlertid
-  mocker i stedet for reelt at persistere
-* Lav en simpel web app, hvor man kan køre crud på creature types, hvor applikationen omfatter en web api klienten som reelt
-  persisterer (somehow)
-* Lav en simpel web app, hvor man kan køre crud på creature types, hvor applikationen trækker på en separat web api
+For at konfigurere til hexagonal tile mode:
+
+1) I constructoren MainWindowViewModel
+   - Sæt engine til SimpleEngine
+   - Sæt enginens BoardTileMode til Hexagonal
+2) I MainWindow.xaml.cs
+   - Udkommenter BoardViewSquares user controlen
+   - Indkommenter BoardViewHexagons user controlen
+
+-----------------------------------------------------
+
+For at konfigurere til square tile mode:
+
+1) I constructoren MainWindowViewModel
+   - Sæt engine til SimpleEngine
+   - Sæt enginens BoardTileMode til Hexagonal
+2) I MainWindow.xaml.cs
+   - Udkommenter BoardViewSquares user controlen
+   - Indkommenter BoardViewHexagons user controlen
