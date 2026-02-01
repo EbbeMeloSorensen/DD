@@ -112,10 +112,10 @@ namespace DD.Engine.Complex
                     // Todo: You can eliminate and combine edges
                     Enumerable.Range(0, vertices.Count / 4).ToList().ForEach(i =>
                     {
-                        _wallGraph.AddEdge(i * 4, i * 4 + 1);
-                        _wallGraph.AddEdge(i * 4 + 1, i * 4 + 2);
-                        _wallGraph.AddEdge(i * 4 + 2, i * 4 + 3);
-                        _wallGraph.AddEdge(i * 4 + 3, i * 4);
+                        _wallGraph.AddEdge(new EmptyEdge(i * 4, i * 4 + 1));
+                        _wallGraph.AddEdge(new EmptyEdge(i * 4 + 1, i * 4 + 2));
+                        _wallGraph.AddEdge(new EmptyEdge(i * 4 + 2, i * 4 + 3));
+                        _wallGraph.AddEdge(new EmptyEdge(i * 4 + 3, i * 4));
                     });
                 }
 
